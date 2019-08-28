@@ -2,7 +2,7 @@
 
 scap:
   lookup:
-    driver: oscap
+    driver: scc
     content:
       local_dir: /root/scap/content
     oscap: {{ scap.oscap | yaml }}
